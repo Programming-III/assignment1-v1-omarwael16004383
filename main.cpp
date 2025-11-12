@@ -6,9 +6,13 @@
 #include "Visitor.h"
 #include <iostream>
 using namespace std;
+Animal(string name,int age,bool isHungry){
+this->name=name;
+this->age=age;
+
+}
 
 
-// ============== MAIN FUNCTION ==============
 int main() {
     
     

@@ -1,13 +1,23 @@
-#ifndef MAMMAL_H
-#define MAMMAL_H
+#ifndef MAMMAL_H_INCLUDED
+#define MAMMAL_H_INCLUDED
+#include <string>
+#include<iostream>
+using namespace std;
 
-#include "Animal.h"
+class Mammal:public Animal{
+private:
+    string furColor;
+public:
+    Mammal();
+    Mammal(string furColor);
+    string getColor();
+    void setColor();
+    ~Mammal();
 
-//define mammal class here
+
+
+} ;
 
 
 
-
-
-
-#endif
+#endif // MAMMAL_H_INCLUDED
